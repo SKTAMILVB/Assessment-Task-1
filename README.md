@@ -52,6 +52,7 @@ helm install prometheus prometheus-community/kube-prometheus-stack
 bash
 Copy code
 kubectl port-forward svc/prometheus-grafana 3000:80
+
 Open your browser and go to http://localhost:3000.
 
 
