@@ -1,5 +1,4 @@
 **Documentation for Deploymen**
-Deployment Documentation:
 
 Provide clear, concise documentation on how to deploy the entire solution. Here's a basic outline:
 
