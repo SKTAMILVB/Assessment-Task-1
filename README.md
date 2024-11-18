@@ -1,13 +1,13 @@
-# Assessment-Task-1
-1 .Documentation for Deployment
+#Documentation for Deploymen#
+Deployment Documentation:
 Provide clear, concise documentation on how to deploy the entire solution. Here's a basic outline:
 
 Steps to Deploy the Web Application
-  Provision Cloud Infrastructure (Terraform)
-	Install Terraform on your machine.
-	Set up your AWS credentials (or your preferred cloud provider).
-	Navigate to the directory containing your terraform files.
-	Run the following commands:
+1. Provision Cloud Infrastructure (Terraform)
+1.	Install Terraform on your machine.
+2.	Set up your AWS credentials (or your preferred cloud provider).
+3.	Navigate to the directory containing your terraform files.
+4.	Run the following commands:
 bash
 Copy code
 terraform init
@@ -47,4 +47,3 @@ Open your browser and go to http://localhost:3000.
 5. Set Up Logging
 1.	Use the EFK stack or cloud-native logging for aggregating logs.
 2.	Configure Fluentd to collect logs from the Kubernetes pods and send them to Elasticsearch.
-
