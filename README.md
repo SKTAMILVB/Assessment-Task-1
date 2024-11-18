@@ -9,6 +9,7 @@ Provide clear, concise documentation on how to deploy the entire solution. Here'
 2.	Set up your AWS credentials (or your preferred cloud provider).
 3.	Navigate to the directory containing your terraform files.
 4.	Run the following commands:
+   
 bash
 Copy code
 terraform init
@@ -51,6 +52,7 @@ bash
 Copy code
 kubectl port-forward svc/prometheus-grafana 3000:80
 Open your browser and go to http://localhost:3000.
+
 #Set Up Logging#
 1.	Use the EFK stack or cloud-native logging for aggregating logs.
 2.	Configure Fluentd to collect logs from the Kubernetes pods and send them to Elasticsearch.
