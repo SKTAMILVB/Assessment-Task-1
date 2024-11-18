@@ -1,0 +1,20 @@
+bash
+Copy code
+# Add Prometheus Helm repository
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+
+# Install Prometheus using Helm
+helm install prometheus prometheus-community/kube-prometheus-stack
+
+
+bash
+Copy code
+# Add Elasticsearch Helm chart
+helm repo add elastic https://helm.elastic.co
+helm install elasticsearch elastic/elasticsearch
+
+# Add Kibana Helm chart
+helm install kibana elastic/kibana
+
+# Add Fluentd to collect logs
+helm install fluentd stable/fluentd
